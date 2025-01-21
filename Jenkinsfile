@@ -5,7 +5,7 @@ pipeline
     stages
 
     {
-        stage (print hello msg)
+        stage ("print hello msg")
         {
             steps {echo 'Hello world'}
         }
