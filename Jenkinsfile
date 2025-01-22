@@ -11,3 +11,8 @@ pipeline
         }
     }
 }
+    stage (scm checkout)
+        {steps {git branch: 'master', url: 'https://github.com/Bodhash/mavenproject.git'}}
+
+    
+    
